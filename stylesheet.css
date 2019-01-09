@@ -1,0 +1,394 @@
+body {
+	/*background-image: url("background.jpg");*/
+	background-color: black;/*
+	animation-name: backcol;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;*/
+}
+h1, h2 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	text-align: center;
+}
+h1 {
+	font-size: 70px;
+}
+h2 {
+	font-size: 22px;
+}
+p {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	color: white;
+	text-shadow: 0 0 5px black;
+	text-align: center;/*animation-name: color;
+	animation-direction: reverse;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;*/
+}
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+.center {
+	width: 1800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.picture {
+	position: absolute;
+	display: block;
+	margin-top: 12%;
+	margin-bottom: 50px;
+	margin-left: 21%;
+	margin-right: auto;
+	width: 50%;
+	height: 25%;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.player {
+  padding: 30px;
+	position: relative;
+	margin-top: -40px;
+	margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+	height: 800px;
+	border: solid;
+	border-color: red;
+	border-width: 1px;
+	border-radius: 1px;
+}
+
+#bwf {
+  filter: grayscale(100%)
+}
+
+#bwf:hover {
+  filter: grayscale(0%)
+}
+
+.picture6 {
+	display: block;
+	margin-left: 40%;
+	width: 200px;
+	height: 200px;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+
+.picture1 {
+	position: absolute;
+	display: block;
+	margin-left: 10%;
+	width: 200px;
+	height: 300px;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.picture2 {
+	position: absolute;
+	display: block;
+	margin-left: 25%;
+	width: 200px;
+	height: 300px;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.picture3 {
+	position: absolute;
+	display: block;
+	margin-left: 40%;
+	width: 200px;
+	height: 300px;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.picture4 {
+	position: absolute;
+	display: block;
+	margin-left: 55%;
+	width: 200px;
+	height: 300px;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.picture5 {
+	position: absolute;
+	display: block;
+	margin-left: 70%;
+	width: 200px;
+	height: 300px;
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.text {
+	padding: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+	border-radius: 1px;
+}
+.text2 {
+	padding: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 400px;
+	border-style: solid;
+	border-color: lightgray;
+	border-width: 1px;
+	border-radius: 1px;
+}
+
+.nav {
+	padding: 15px;
+	border: solid;
+	border: white;
+	border-width: 6px;
+	border-radius: 10px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttona {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 400px 60%;
+	cursor: pointer;
+  }
+  .buttonb {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: -400px 60%;
+	cursor: pointer;
+  }
+  .buttonc {
+	position: absolute;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: -485px 60%;
+	cursor: pointer;
+  }
+.button1 {background-color: #ff0000;} /* Red */
+.button2 
+{background-color: #ff0000;
+align-self: center;
+border: solid;
+border-color: black;
+}
+.button2:hover{
+background-color: black;
+border: solid;
+border-color: white;
+}
+
+.button3 {
+	background: red;
+	border: 0;
+	color: red;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+#pbg{
+	height: 700px;
+}
+@media only screen and (max-width: 1500px){
+	#pbg{
+		width: 80vw;
+	}
+	#seek-bar{
+		width: 1px;
+		display: none;
+	}
+	#volume-bar{
+		display: none;
+	}
+	.picture1 {
+		position: absolute;
+		display: block;
+		margin-left: 10%;
+		width: 100px;
+		height: 150px;
+		border: solid;
+		border-color: white;
+		border-width: 1px;
+		border-radius: 1px;
+	}
+	.picture2 {
+		position: absolute;
+		display: block;
+		margin-left: 25%;
+		width: 100px;
+		height: 150px;
+		border: solid;
+		border-color: white;
+		border-width: 1px;
+		border-radius: 1px;
+	}
+	.picture3 {
+		position: absolute;
+		display: block;
+		margin-left: 40%;
+		width: 100px;
+		height: 150px;
+		border: solid;
+		border-color: white;
+		border-width: 1px;
+		border-radius: 1px;
+	}
+	.picture4 {
+		position: absolute;
+		display: block;
+		margin-left: 55%;
+		width: 100px;
+		height: 150px;
+		border: solid;
+		border-color: white;
+		border-width: 1px;
+		border-radius: 1px;
+	}
+	.picture5 {
+		position: absolute;
+		display: block;
+		margin-left: 70%;
+		width: 100px;
+		height: 150px;
+		border: solid;
+		border-color: white;
+		border-width: 1px;
+		border-radius: 1px;
+	}
+}
+#video-player{
+	width: 50%;
+	height: 200px;
+	box-align: center;
+}
+
+#video-controls{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 1;
+	padding: 10px;
+	transition: opacity .3s;
+	background-color: red;
+}
+#seek-bar{
+	width: 30%;
+	color: black;
+}
+#volume-bar{
+	width: 20%;
+	color: black;
+}
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: whitesmoke;
+  color: red;
+}
+
+a:link {
+  color: #ff0000;
+}
+a:hover {
+  color: #eeeeee;
+}
+a:visited {
+  color: red;
+}
+.fa-play-circle-o {
+content: url(Bilder/media_play_pause_resume.png);
+width: 45px;
+margin-top: -5px;
+margin-left: -10px;
+margin-right: -10px;
+margin-bottom: -7px;
+height: 45px;
+background: #ff0000;
+}
+.fa-play {
+content: url(Bilder/media_play_pause_resume.png);
+background: #ff0000;
+margin-top: -5px;
+margin-left: -10px;
+margin-right: -10px;
+margin-bottom: -7px;
+width: 45px;
+height: 45px;
+}
+.fa-play-circle-o {
+content: url(Bilder/media_play_pause_resume.png);
+background: #ff0000;
+margin-top: -5px;
+margin-left: -10px;
+margin-right: -10px;
+margin-bottom: -7px;
+width: 45px;
+height: 45px;
+}
